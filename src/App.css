@@ -1,0 +1,78 @@
+* {
+  font-family:
+    ui-sans-serif,
+    -apple-system,
+    system-ui,
+    Segoe UI,
+    Roboto,
+    Ubuntu,
+    Cantarell,
+    Noto Sans,
+    sans-serif,
+    Helvetica,
+    Apple Color Emoji,
+    Arial,
+    Segoe UI Emoji,
+    Segoe UI Symbol;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedorFormulario {
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 80% 20%;
+}
+
+.row>* {
+  text-align: center;
+}
+
+.subCont>.row>input,
+.telefonoInput {
+  margin-top: 10px;
+  height: 35px;
+  border-radius: 5px;
+  width: 100%;
+}
+
+
+
+.form-control {
+  width: 100% !important;
+}
+
+.subCont {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  text-align: center;
+}
+
+
+.BtnEnviar {
+  margin-top: 20px;
+  height: 35px;
+  border-radius: 5px;
+  width: 82%;
+
+}
+
+.contenedortelefono{
+  width: 82%;
+}
+
+.items{
+  text-align: start;
+}
